@@ -1,0 +1,49 @@
+0
+00:00:00,020 --> 00:00:09,345
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">《安托尼奥之死 》又名《黑上帝白魔鬼续集》</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">"Death of Antonio" also known as "The Sequel to Black God, White Devil"</front>
+
+1
+00:00:10,020 --> 00:00:14,345
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">神秘的亡命之徒：坎加塞罗，于1940年从巴西东北部消失</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">The mysterious outlaw, Cangacero, disappeared from northeastern Brazil in 1940.</front>
+
+2
+00:00:14,420 --> 00:00:18,705
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">有史以来最伟大的坎加塞罗，叫拉姆皮奥，在他的指挥下</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">The greatest Cangacero of all time, Lampiao, led them.</front>
+
+3
+00:00:18,780 --> 00:00:23,480
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">进行了一场长达25年的反政府斗争，时至今日，仍时不时</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">He waged a 25-year-long anti-government struggle, and even today, there are still new Cangaceros emerging, trying to relive the glory of Lampiao.</front>
+
+4
+00:00:23,700 --> 00:00:29,520
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">涌现出一批批的坎加塞罗，试图重现拉姆皮奥的昔日荣光</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">Batch after batch of Cangaceros continue to emerge, attempting to recreate the former glory of Lampiao.</front>
+
+5
+00:00:30,080 --> 00:00:34,260
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">圣乔治是巴西最受欢迎的天主教圣人</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">St. George is the most popular Catholic saint in Brazil.</front>
+
+6
+00:00:34,360 --> 00:00:38,880
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">在巴西和非洲的宗教中，与之齐名的人是勇士奥克赛</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">In both Brazilian and African religions, a warrior named Oxossi is equally revered.</front>
+
+7
+00:00:38,960 --> 00:00:43,740
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">因此，圣乔治和奥克赛均被称为圣格雷罗</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">Therefore, both St. George and Oxossi are referred to as São Geraldo.</front>
+
+8
+00:00:43,860 --> 00:00:48,940
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">意思是圣战士或圣斗士</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">Meaning the holy warrior or the holy fighter.</front>
+
+9
+00:00:49,040 --> 00:00:51,140
+<front face="宋体" size="36" color="#FFFFFF" back="#000000">这部电影的灵感来源于那场神话之战：</front>
+<front face="微软雅黑" size="30" color="#FFFFFF" back="#000000">This film is inspired by the mythical battle of:</front>
