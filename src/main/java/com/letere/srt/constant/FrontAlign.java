@@ -1,4 +1,4 @@
-package com.letere.constant;
+package com.letere.srt.constant;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

@@ -1,8 +1,8 @@
-package com.letere.util;
+package com.letere.srt.util;
 
 import cn.hutool.core.io.file.FileReader;
 import cn.hutool.core.io.file.FileWriter;
-import com.letere.bean.SrtBody;
+import com.letere.srt.bean.SrtBody;
 
 import java.io.File;
 import java.util.ArrayList;

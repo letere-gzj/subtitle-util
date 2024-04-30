@@ -1,4 +1,4 @@
-package com.letere.bean;
+package com.letere.srt.bean;
 
 import lombok.Data;
 

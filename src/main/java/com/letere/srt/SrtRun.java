@@ -1,9 +1,9 @@
-package com.letere;
+package com.letere.srt;
 
-import com.letere.bean.SrtBody;
-import com.letere.bean.SrtStyleBuilder;
-import com.letere.util.FileUtil;
-import com.letere.util.SrtUtil;
+import com.letere.srt.bean.SrtBody;
+import com.letere.srt.bean.SrtStyle;
+import com.letere.srt.util.FileUtil;
+import com.letere.srt.util.SrtUtil;
 
 import java.util.Arrays;
 import java.util.List;
@@ -12,7 +12,7 @@ import java.util.List;
  * @author gaozijie
  * @since 2024-04-24
  */
-public class MainRun {
+public class SrtRun {
 
     public static void main(String[] args) {
 //        mergeTest();
@@ -34,14 +34,14 @@ public class MainRun {
      */
     public static void batchAddStyleTest() {
         List<SrtBody> srtBodies = FileUtil.readAsSrt("./file/sample/merge.srt");
-        String chineseStyle = SrtStyleBuilder.defaultStyle().build();
-        String englishStyle = new SrtStyleBuilder()
+        SrtStyle chineseStyle = SrtStyle.defaultStyle();
+        SrtStyle englishStyle = SrtStyle.builder()
                 .frontName("微软雅黑")
                 .frontSize(30)
                 .frontColor("#FFFFFF")
-                .backgroundColor("#000000")
+                .bgColor("#000000")
                 .build();
-        SrtUtil.addStyle(srtBodies, Arrays.asList(chineseStyle, englishStyle));
+        SrtUtil.addStyle(srtBodies, Arrays.asList(chineseStyle.getStyleFormat(), englishStyle.getStyleFormat()));
         FileUtil.writeSrt("./file/result/batchStyle.srt", srtBodies);
     }
 }

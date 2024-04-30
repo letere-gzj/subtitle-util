@@ -1,6 +1,6 @@
-package com.letere.util;
+package com.letere.srt.util;
 
-import com.letere.bean.SrtBody;
+import com.letere.srt.bean.SrtBody;
 
 import java.util.ArrayList;
 import java.util.Collections;

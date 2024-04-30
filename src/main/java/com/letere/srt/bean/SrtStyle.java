@@ -1,6 +1,8 @@
-package com.letere.bean;
+package com.letere.srt.bean;
 
-import com.letere.constant.FrontAlign;
+import com.letere.srt.constant.FrontAlign;
+import lombok.AllArgsConstructor;
+import lombok.Builder;
 import lombok.NoArgsConstructor;
 
 import java.util.Objects;
@@ -9,8 +11,10 @@ import java.util.Objects;
  * @author gaozijie
  * @since 2024-04-25
  */
+@Builder
 @NoArgsConstructor
-public class SrtStyleBuilder {
+@AllArgsConstructor
+public class SrtStyle {
 
     /**
      * 字体名称
@@ -51,50 +55,20 @@ public class SrtStyleBuilder {
      * 默认样式
      * @return srt样式构造类
      */
-    public static SrtStyleBuilder defaultStyle() {
-        return new SrtStyleBuilder()
+    public static SrtStyle defaultStyle() {
+        return SrtStyle.builder()
                 .frontName("宋体")
                 .frontSize(36)
                 .frontColor("#FFFFFF")
-                .backgroundColor("#000000");
+                .bgColor("#000000")
+                .build();
     }
 
-    public SrtStyleBuilder frontName(String frontName) {
-        this.frontName = frontName;
-        return this;
-    }
-
-    public SrtStyleBuilder frontSize(Integer frontSize) {
-        this.frontSize = frontSize;
-        return this;
-    }
-
-    public SrtStyleBuilder frontColor(String frontColor) {
-        this.frontColor = frontColor;
-        return this;
-    }
-
-    public SrtStyleBuilder backgroundColor(String bgColor) {
-        this.bgColor = bgColor;
-        return this;
-    }
-
-    public SrtStyleBuilder topPadding(int top) {
-        this.top = top;
-        return this;
-    }
-
-    public SrtStyleBuilder bottomPadding(int bottom) {
-        this.bottom = bottom;
-        return this;
-    }
-
-    public SrtStyleBuilder frontAlign(FrontAlign align) {
-        this.align = align;
-        return this;
-    }
-
-    public String build() {
+    /**
+     * 获取样式格式
+     * @return 样式格式
+     */
+    public String getStyleFormat() {
         String base = "%s";
         String frontStyle = this.buildFront();
         if (!Objects.isNull(frontStyle)) {
