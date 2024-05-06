@@ -89,7 +89,7 @@ public class WhisperCmd {
             builder.append(" ").append(WhisperConstant.LANGUAGE_CMD).append(" ").append(language.getValue());
         }
         if (Objects.equals(wordTimestamps, true)) {
-            builder.append(" ").append(WhisperConstant.WORD_TIMESTAMPS_CMD).append(" ").append(true);
+            builder.append(" ").append(WhisperConstant.WORD_TIMESTAMPS_CMD).append(" True");
         }
         if (!Objects.isNull(maxLineWidth)) {
             builder.append(" ").append(WhisperConstant.MAX_LINE_WIDTH_CMD).append(" ").append(maxLineWidth);
@@ -98,7 +98,7 @@ public class WhisperCmd {
             builder.append(" ").append(WhisperConstant.MAX_LINE_COUNT_CMD).append(" ").append(maxLineCount);
         }
         if (Objects.equals(filterRepeat, true)) {
-            builder.append(" ").append(WhisperConstant.NOT_REPEAT_CMD);
+            builder.append(" ").append(WhisperConstant.NOT_REPEAT_CMD).append(" 0.2");
         }
         if (!Objects.isNull(initialPrompt)) {
             builder.append(" ").append(WhisperConstant.INITIAL_PROMPT).append(" \"").append(initialPrompt).append("\"");
